@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">DemoDrones</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <!-- <string name="server_client_id">113050404249-6skkd28m2su77omuaislvsvebe7qr9o6.apps.googleusercontent.com</string> -->
+  <string name="expo_runtime_version">1.0.0</string>
+</resources>

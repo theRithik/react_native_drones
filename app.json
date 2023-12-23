@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "DemoDrones",
+    "slug": "DemoDrones",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/frontLogo.gif",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/frontLogo.gif",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "bundleIdentifier": "Dronesapp.apk"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/frontLogo.gif",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "Dronesapp.apk",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cb67cab5-9214-4aca-b4bd-c06da8421713"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cb67cab5-9214-4aca-b4bd-c06da8421713"
+    }
+  }
+}
